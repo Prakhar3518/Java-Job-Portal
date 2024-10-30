@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(to bottom, #6038a6, #1b055b);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#icon{
+
+    color: rgb(255, 255, 255);
+    
+    }
+
+
+#logo{
+    padding-left: 1250px;
+    width: 200px;
+    position: relative;
+    bottom: 95px;
+    
+    
+}
+.container {
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    bottom: 200px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.filter-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-container select {
+    padding: 10px;
+    background-color: #301b70;
+    border: 1px solid #6b46c1;
+    border-radius: 5px;
+    color: white;
+}
+
+.job-listing {
+
+    background-color: #301b70;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-listing h3 {
+    margin: 0 0 5px;
+    font-size: 1.4em;
+}
+
+.job-listing p {
+    margin: 5px 0;
+    color: #d1c4e9;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #6b46c1;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #e6e6fa;
+}
+
+
+.alljobs{
+    color: rgb(253, 253, 253);
+}

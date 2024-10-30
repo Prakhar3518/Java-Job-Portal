@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to bottom, #6038a6, #2c6378);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#bar{
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+#navigator{
+    border-bottom: 2px solid;
+    
+    
+}
+#contact{
+    padding-right: 40px;
+    color: aliceblue;
+}
+#about{
+    padding-right: 40px;
+    color: aliceblue;
+}
+#visit{
+    padding-right: 40px;
+    color: aliceblue;
+    
+}
+#portal{
+    padding-right: 40px;
+    color: aliceblue;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    
+}
+#alldata{
+    margin-left: 60%;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+    
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+p{
+    line-height: 1.5;
+}  
+#click{
+    border: 5px solid;
+    color: rgb(110, 162, 149);
+    background-color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="icon">SRM JOB PORTAL</h1>
+    <img id="logo" src="Srmseal.png">
+    <div class="container">
+        
+        
+        <h2>Your ideal job awaits, start the search</h2>
+        <p>Get the latest job openings that best suit you!</p>
+        
+        <!-- Filter Section -->
+        <div class="filter-container">
+            <select id="role-filter">
+                <option value="all">All Roles</option>
+                <option value="iOS Developer">iOS Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="AI Engineer">AI Engineer</option>
+                <option value="DevOps Engineer">DevOps Engineer</option>
+            </select>
+            <select id="type-filter">
+                <option value="all">All Types</option>
+                <option value="Full Time">Full Time</option>
+                <option value="Part Time">Part Time</option>
+                <option value="Contract">Contract</option>
+            </select>
+            <select id="location-filter">
+                
+                <option value="Remote">Remote</option>
+                <option value="In-Office">In-Office</option>
+                <option value="Hybrid">Hybrid</option>
+            </select>
+            <select id="level-filter">
+                <option value="all">All Levels</option>
+                <option value="Junior">Junior</option>
+                <option value="Mid Level">Mid Level</option>
+                <option value="Senior">Senior</option>
+            </select>
+            <select id="cgpa-filter">
+                <option value="all">All CGPAs</option>
+                <option value="5">5+</option>
+                <option value="6">6+</option>
+                <option value="7">7+</option>
+                <option value="8">8+</option>
+                <option value="9">9+</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+       
+        <div id="job-listings">
+            <a href="page2.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="Frontend Developer" data-type="Full Time" data-location="In-Office" data-level="Fresher" data-cgpa="7">
+                <h3 class="alljobs">Frontend Developer - Amazon</h3>
+                <p>Full Time • Fresher • In-Office • Min CGPA: 7</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Tailwind CSS</span>
+                </div>
+            </div>
+            </a>
+            <a href="page3.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="iOS Developer" data-type="Full Time" data-location="Remote" data-level="Mid Level" data-cgpa="8">
+                <h3 class="alljobs">iOS Developer - Apple</h3>
+                <p>Full Time • Mid Level • Remote • Min CGPA: 8</p>
+                <div class="tags">
+                    <span class="tag">SwiftUI</span>
+                    <span class="tag">UIKit</span>
+                    <span class="tag">Core Data</span>
+                </div>
+            </div>
+            </a>
+            <a href="index4.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="Backend Developer" data-type="Contract" data-location="Remote" data-level="Senior" data-cgpa="9">
+                <h3 class="alljobs">Backend Developer - Google</h3>
+                <p>Contract • Senior • Remote • Min CGPA: 9</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">REST API</span>
+                </div>
+            </div>
+            </a>
+            <a href="index5.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="Data Scientist" data-type="Full Time" data-location="Hybrid" data-level="Junior" data-cgpa="7">
+                <h3 class="alljobs">Data Scientist - Meta</h3>
+                <p>Full Time • Junior • Hybrid • Min CGPA: 7</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">Machine Learning</span>
+                </div>
+            </div>
+            </a>
+            <a href="index6.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="AI Engineer" data-type="Part Time" data-location="In-Office" data-level="Mid Level" data-cgpa="8">
+                <h3 class="alljobs">AI Engineer - Tesla</h3>
+                <p>Part Time • Mid Level • In-Office • Min CGPA: 8</p>
+                <div class="tags">
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Computer Vision</span>
+                </div>
+            </div>
+            </a>
+            <a href="index7.html" target="_blank" title="click to know more">
+            <div class="job-listing" data-role="DevOps Engineer" data-type="Full Time" data-location="Remote" data-level="Senior" data-cgpa="10">
+                <h3 class="alljobs">DevOps Engineer - Netflix</h3>
+                <p>Full Time • Senior • Remote • Min CGPA: 10</p>
+                <div class="tags">
+                    <span class="tag">AWS</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Kubernetes</span>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
